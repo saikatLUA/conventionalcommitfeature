@@ -1,0 +1,29 @@
+{
+  "name": "conventionalcommitfeature",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "standard-version": "^9.3.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "release": "standard-version",
+    "type": "git",
+    "url": "git+https://github.com/saikatLUA/conventionalcommitfeature.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saikatLUA/conventionalcommitfeature/issues"
+  },
+  "homepage": "https://github.com/saikatLUA/conventionalcommitfeature#readme"
+}
